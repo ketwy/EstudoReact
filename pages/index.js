@@ -19,7 +19,7 @@ export default function Movies3() {
         <div class="container-fluid">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="buscaFilmes">
+              <a className="nav-link" href=" ">
                 Home
               </a>
             </li>
