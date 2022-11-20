@@ -52,7 +52,7 @@ export default function Movies3() {
               <TheMovies
                 data={
                   error
-                    ? { Error: "Erro na pesquisa" }
+                    ? { error: "Erro na pesquisa" }
                     : data
                     ? data
                     : { Search: "" }
