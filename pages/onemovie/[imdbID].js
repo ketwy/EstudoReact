@@ -9,7 +9,7 @@ export default function Movies2() {
   const router = useRouter();
   const { imdbID } = router.query;
   const { data, error } = useSWR(
-    `http://www.omdbapi.com/?apikey=25a45914&i=` + imdbID,
+    `https://www.omdbapi.com/?apikey=25a45914&i=` + imdbID,
     fetcher
   );
   if (error) return <div>falha na requisição...</div>;
