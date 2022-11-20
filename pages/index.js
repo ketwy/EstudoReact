@@ -50,7 +50,7 @@ class NameForm extends React.Component {
   }
 
   handleSubmit(event) {
-    window.open("buscaFilmes/searchmovies/" + this.state.value, "_self");
+    window.open("searchmovies/" + this.state.value, "_self");
     event.preventDefault();
   }
 
