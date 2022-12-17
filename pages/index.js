@@ -19,8 +19,21 @@ export default function Movies3() {
         <div class="container-fluid">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href=" ">
+              <a className="nav-link" href="../">
                 Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/receita6/movies33">
+                Receita 6
+              </a>
+              <a className="btn btn-outline-light" href="/receita6/movies35">
+                questao 4
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/receita9/1">
+                Receita 9
               </a>
             </li>
           </ul>
